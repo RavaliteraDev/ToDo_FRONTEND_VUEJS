@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar absolute height="80" class="px-8" color="#EEF8FF">
+  <v-app-bar height="80" class="px-8" color="#EEF8FF">
     <template v-slot:prepend>
       <img src="/images/todo-logo.png" height="44" alt="ToDo logo">
     </template>
@@ -34,7 +34,7 @@ const menu = [
   { title: "Home", href: "#home" },
   { title: "Tutoriels", href: "#tutoriels" },
   { title: "Contacts", href: "#contacts" },
-]
+];
 </script>
 
 <style>
