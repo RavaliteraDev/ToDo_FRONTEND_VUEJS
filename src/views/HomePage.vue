@@ -3,6 +3,7 @@
   <presentation></presentation>
   <tutoriels></tutoriels>
   <contacts></contacts>
+  <copyright></copyright>
 </template>
 
 <script setup lang="ts">
@@ -10,4 +11,5 @@
   import Presentation from '@/components/Presentation.vue';
   import Tutoriels from '@/components/Tutoriels.vue';
   import Contacts from '@/components/Contacts.vue';
+  import Copyright from '@/components/Copyright.vue';
 </script>
