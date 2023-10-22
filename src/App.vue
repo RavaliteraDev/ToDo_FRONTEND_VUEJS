@@ -7,3 +7,14 @@
 </template>
 
 <script setup lang="ts"></script>
+
+<style>
+  @font-face {
+    font-family: 'Lora';
+    src: url(./fonts/Lora/static/Lora-Regular.ttf);
+  }
+
+  * {
+    font-family: 'Lora', serif;
+  }
+</style>
